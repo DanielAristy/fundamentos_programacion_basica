@@ -1,0 +1,31 @@
+.columna{
+    display: flex;
+    justify-content: space-around;
+}
+
+.row{
+    width: 20rem;
+}
+p{
+    margin: 0;
+}
+
+.row blockquote{
+    background-color: springgreen;
+}
+
+.row blockquote p {
+    color: white;
+    text-align: justify;
+}
+
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
