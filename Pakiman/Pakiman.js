@@ -5,7 +5,7 @@ class Animal{
     }
 
     come(){
-        return "Esta comiendo el animal " + this.nombre
+        return this.nombre + " esta comiendo "; 
     }
 }
 
@@ -14,11 +14,10 @@ class Pakiman extends Animal{
         super(nombre, tipo);
     }
     comiendo(){
-        return this.nombre + " esta comiendo hierba";
+        return this.come() + "hierba";
     }
 }
 
 var paki = new Pakiman("Cauchin", "Tierra");
-console.log(paki.come());
 console.log(paki.comiendo());
 console.log(paki);
